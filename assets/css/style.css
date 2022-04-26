@@ -3814,7 +3814,7 @@ body.loaded .preloader {
 	}
 }
 .timeline__content {
-    background-color: #010b1e !important;
+    background-color: transparent !important;
     border: 1px solid #5ff !important;
     border-radius: 0px !important;
     color: rgba(255,255,255,.5)!important;
