@@ -25,10 +25,10 @@ h1 {
 	font-size: 6rem;
 	font-weight: 700;
 	letter-spacing: -.3rem;
-    background: #00FBFF;
-    background: linear-gradient(to right, #00FBFF 0%, #FA65FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	background: #00FBFF;
+	background: linear-gradient(to right, #00FBFF 0%, #FA65FF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 
 }
 
@@ -737,7 +737,7 @@ body {
 }
 
 .button-red::before {
-	background-color:#cc00eb;
+	background-color: #cc00eb;
 }
 
 .button-red::after {
@@ -2712,11 +2712,10 @@ body {
 
 .footer-copyright {
 	position: relative;
-	z-index: 2
-    background: #00FBFF;
-    background: linear-gradient(to right, #00FBFF 0%, #FA65FF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+	z-index: 2 background: #00FBFF;
+	background: linear-gradient(to right, #00FBFF 0%, #FA65FF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 @media (max-width: 991px) {
@@ -2773,7 +2772,7 @@ body {
 .header-content p {
 	margin-top: 2.5rem;
 	margin-bottom: 5.5rem;
-    color: #fff;
+	color: #fff;
 }
 
 .header-content .background-layout .box-1 {
@@ -3120,7 +3119,8 @@ body {
 		left: -100%;
 		width: 100%;
 		height: 100vh;
-		background-color: #03122f;;
+		background-color: #03122f;
+		;
 		-webkit-transition: all .25s ease-out 0s;
 		transition: all .25s ease-out 0s
 	}
@@ -3802,41 +3802,47 @@ body.loaded .preloader {
 }
 
 #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-  }
-  @media (max-width: 991px) {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+@media (max-width: 991px) {
 	#myVideo {
 		right: -460px;
 	}
 }
+
 .timeline__content {
-    background-color: transparent !important;
-    border: none !important;
-    border-radius: 0px !important;
-    color: rgba(255,255,255,.5)!important;
-    display: block;
-    padding: 20px;
+	background-color: transparent !important;
+	border: 1px solid #5ff !important;
+	border-radius: 0px !important;
+	color: rgba(255, 255, 255, .5) !important;
+	display: block;
+	padding: 20px;
 	color: #fff;
-    position: relative;
+	position: relative;
 }
 
 .timeline--horizontal .timeline__item .timeline__content:after {
-    /* border-top: 10px solid #5ff !important; */
+	/* border-top: 10px solid #5ff !important; */
 }
+
 .timeline__item:after {
-    background-color: #ffd600 !important;
-    border: 4px solid #ffd600 !important;
+	background-color: #ffd600 !important;
+	border: 4px solid #ffd600 !important;
 }
+
 .timeline__content ul {
 	list-style-type: none;
 }
+
 .timeline__content p {
 	font-size: 14px !important;
 }
-.timeline__item .animated{
+
+.timeline__item .animated {
 	opacity: 1 !important;
 }
