@@ -3810,7 +3810,7 @@ body.loaded .preloader {
   }
   @media (max-width: 991px) {
 	#myVideo {
-		right: -510px;
+		right: -460px;
 	}
 }
 .timeline__content {
