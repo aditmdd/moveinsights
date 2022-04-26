@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/overlay-scrollbars.min.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="assets/css/timeline.min.css" rel="stylesheet">
 </head>
 <body>
     <!-- navigation - start -->
@@ -209,6 +210,77 @@
             </div>
         </div>
     </div>
+    <div class="faq-section" id="faq" style="background:#03122ff0;">
+        <video autoplay muted loop id="myVideo" style="z-index: -1;">
+            <source src="assets/main.mp4" type="video/mp4">
+          </video>
+        <div class="faq-section-wrapper">
+            <div class="row">
+                <div class="col-lg-12 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
+                    <div class="heading">
+                        <h1 class="lt-80 t-center m-horz-auto c-dark heading-width-res-full heading-width-67">Long-Term Journey</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="timeline">
+                    <div class="timeline__wrap">
+                        <div class="timeline__items">
+                            <div class="timeline__item">
+                                <div class="timeline__content">
+                                    <h1>1st Phase</h1>
+                                    <ul>
+                                        <p>Community Building</p>
+                                        <p>Whitepaper Creation</p>
+                                        <p>Roadmap Creation</p>
+                                        <p>Contract Verified</p>
+                                        <p>Fairlaunch Starting</p>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="timeline__item">
+                                <div class="timeline__content">
+                                    <h1>2nd Phase</h1>
+                                    <ul>
+                                        <p>Move Insights App Release</p>
+                                        <p>App Branding</p>
+                                        <p>Top Influencer Promotion</p>
+                                        <p>Banner Marketing Promotion</p>
+                                        <p>List on CMC & CG</p>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="timeline__item">
+                                <div class="timeline__content">
+                                    <h1>3rd Phase</h1>
+                                    <ul>
+                                        <p>Reach 15K+ Holder</p>
+                                        <p>Market Place Inside App</p>
+                                        <p>CEX Listing</p>
+                                        <p>Trade Function</p>
+                                        <p>Update Patch V 2.0</p>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="timeline__item">
+                                <div class="timeline__content">
+                                    <h1>4th Phase</h1>
+                                    <ul>
+                                        <p>Reach 25M Marketcap</p>
+                                        <p>ETH Bridge</p>
+                                        <p>Brand Partnership</p>
+                                        <p>Move Insight NFT Giveaway</p>
+                                        <p>TBA</p>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- faq section - start -->
     <div class="faq-section" id="faq" style="background:#03122f;">
         <div class="faq-section-wrapper">
@@ -373,5 +445,14 @@ Currently the application is still in beta testing stage and will be released in
     <script src="assets/js/overlay-scrollbars.min.js"></script>
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/timeline.min.js"></script>
+    <script>
+        timeline(document.querySelectorAll('.timeline'), {
+            forceVerticalMode: 700,
+            mode: 'horizontal',
+            verticalStartPosition: 'left',
+            visibleItems: 4
+        });
+    </script>
 </body>
 </html>

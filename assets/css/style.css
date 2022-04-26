@@ -3813,4 +3813,27 @@ body.loaded .preloader {
 		right: -510px;
 	}
 }
-/*# sourceMappingURL=style.css.map */
+.timeline__content {
+    background-color: #010b1e !important;
+    border: 1px solid #5ff !important;
+    border-radius: 0px !important;
+    color: rgba(255,255,255,.5)!important;
+    display: block;
+    padding: 20px;
+	color: #fff;
+    position: relative;
+}
+
+.timeline--horizontal .timeline__item .timeline__content:after {
+    /* border-top: 10px solid #5ff !important; */
+}
+.timeline__item:after {
+    background-color: #ffd600 !important;
+    border: 4px solid #ffd600 !important;
+}
+.timeline__content ul {
+	list-style-type: none;
+}
+.timeline__content p {
+	font-size: 14px !important;
+}
