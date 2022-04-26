@@ -3837,3 +3837,6 @@ body.loaded .preloader {
 .timeline__content p {
 	font-size: 14px !important;
 }
+.timeline__item .animated{
+	opacity: 1 !important;
+}
