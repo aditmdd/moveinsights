@@ -2712,7 +2712,8 @@ body {
 
 .footer-copyright {
 	position: relative;
-	z-index: 2 background: #00FBFF;
+	z-index: 2;
+	background: #00FBFF;
 	background: linear-gradient(to right, #00FBFF 0%, #FA65FF 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
